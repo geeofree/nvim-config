@@ -16,6 +16,6 @@ set splitbelow          " Put vertical window split on bottom
 set splitright          " Put horizontal window split on right
 set laststatus=0        " Dont show status line
 set hidden              " Put buffer in background instead of destroying it when a new one comes
-set updatetime=50       " Set updatetime to 50ms
+set updatetime=100      " Set updatetime to 100ms
 
 au! BufWritePost $MYVIMRC source % " Autosource vim config file after every write
