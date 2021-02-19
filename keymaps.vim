@@ -1,15 +1,12 @@
 " --- KEYMAPS ---
 let mapleader=" "
 
-"" Fuzzy search
+"" [Fuzzy search]
 " Search filenames
-nnoremap <leader>f :FZF<CR>
-" Search buffers
-nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>f :Files<CR>
 
-"" File Tree
-" Toggle nerd tree
-nnoremap <leader>t :NERDTreeToggle<CR>
+" Search string in files
+nnoremap <leader>s :Rg<CR>
 
 " Quit current buffer
 nnoremap <C-q> :bdelete<CR>
