@@ -22,20 +22,20 @@ nnoremap <leader>f :Files<CR>
 nnoremap <leader>s :Rg<CR>
 
 "" [Buffers]
-" Quit current buffer
-nnoremap <C-q> :bdelete<CR>
-
 " Search opened buffers
-nnoremap <leader>j :Buffers<CR>
+nnoremap <leader>r :Buffers<CR>
 
 " Cycle through buffers
-nnoremap <S-Tab> :bnext<CR>
+nnoremap <leader><Tab> :bnext<CR>
 
-" Save buffer
+" Save current buffer
 nnoremap <leader>w :write<CR>
 
-" Save then delete buffer
-nnoremap <leader>ww :write<CR><bar>:bdelete<CR>
+" Delete current buffer
+nnoremap <leader>q :bdelete<CR>
+
+" Save then delete current buffer
+nnoremap <leader>e :write<CR><bar>:bdelete<CR>
 
 "" [Directory Explorer]
 " Toggle nerd tree
