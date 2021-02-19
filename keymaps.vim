@@ -31,6 +31,12 @@ nnoremap <leader>j :Buffers<CR>
 " Cycle through buffers
 nnoremap <S-Tab> :bnext<CR>
 
+" Save buffer
+nnoremap <leader>w :write<CR>
+
+" Save then delete buffer
+nnoremap <leader>ww :write<CR><bar>:bdelete<CR>
+
 "" [Directory Explorer]
 " Toggle nerd tree
 nnoremap <leader>t :NERDTreeToggle<CR>
