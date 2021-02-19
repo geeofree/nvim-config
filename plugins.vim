@@ -2,6 +2,7 @@
 call plug#begin('~/.vim/plugged')
   " Colorscheme
   Plug 'ghifarit53/tokyonight-vim'
+  Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
   " Language definitions for syntax highlighting
   Plug 'sheerun/vim-polyglot'
