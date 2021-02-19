@@ -3,3 +3,4 @@ source $HOME/Projects/nvim-config/plugins.vim
 source $HOME/Projects/nvim-config/highlights.vim
 source $HOME/Projects/nvim-config/keymaps.vim
 source $HOME/Projects/nvim-config/emmet.config.vim
+source $HOME/Projects/nvim-config/coc.keymaps.vim
