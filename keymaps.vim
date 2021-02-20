@@ -23,7 +23,7 @@ nnoremap <leader>s :Rg<CR>
 
 "" [Buffers]
 " Search opened buffers
-nnoremap <leader>j :Buffers<CR>
+nnoremap <leader>r :Buffers<CR>
 
 " Cycle through buffers
 nnoremap <S-Tab> :bnext<CR>
