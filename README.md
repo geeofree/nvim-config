@@ -4,6 +4,6 @@
 - Plugin Manager: [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Steps to use
-1. Run the init script `./init.sh` to hardlink `./init.vim` to `$HOME/.config/nvim/init.vim`.
+1. Run the link script `./link.sh` to softlink `./init.vim` to `$HOME/.config/nvim/init.vim`.
 2. Run `:PlugInstall` to install the plugins.
 3. Enjoy
