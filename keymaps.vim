@@ -39,4 +39,7 @@ nnoremap <leader>e :write<CR><bar>:bdelete<CR>
 
 "" [Directory Explorer]
 " Toggle nerd tree
-nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <leader>o :NERDTreeToggle<CR>
+
+" Reveal file tree of current buffer
+nnoremap <leader>i :NERDTreeFind<CR>
