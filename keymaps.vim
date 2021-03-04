@@ -9,10 +9,10 @@ nnoremap <leader>gs :Git<CR>
 nnoremap <leader>gf :GFiles?<CR>
 
 " Git commit
-nnoremap <leader>gc :Gcommit<CR>
+nnoremap <leader>gc :G commit<CR>
 
 " Git push
-nnoremap <leader>gp :Gpush<CR>
+nnoremap <leader>gp :G push<CR>
 
 "" [Fuzzy search]
 " Search filenames
