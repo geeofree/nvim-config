@@ -12,7 +12,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf.vim'
 
   " Directory explorer
-  Plug 'preservim/nerdtree'
+  Plug 'justinmk/vim-dirvish'
+  Plug 'kristijanhusak/vim-dirvish-git'
 
   " Statusline
   Plug 'vim-airline/vim-airline'
