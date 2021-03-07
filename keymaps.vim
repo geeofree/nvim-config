@@ -36,10 +36,3 @@ nnoremap <leader>q :bdelete<CR>
 
 " Save then delete current buffer
 nnoremap <leader>e :write<CR><bar>:bdelete<CR>
-
-"" [Directory Explorer]
-" Toggle nerd tree
-nnoremap <leader>o :NERDTreeToggle<CR>
-
-" Reveal file tree of current buffer
-nnoremap <leader>i :NERDTreeFind<CR>
