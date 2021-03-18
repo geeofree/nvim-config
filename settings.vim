@@ -10,7 +10,6 @@ set tabstop=2           " Tabs
 set softtabstop=2       " Soft tabs
 set expandtab           " Expanded tabs
 set noswapfile          " Disable creating a swap file
-set scrolloff=8         " Scroll next text below/upwards when cursor is around 8 lines
 set termguicolors       " Term GUI colors
 set splitbelow          " Put vertical window split on bottom
 set splitright          " Put horizontal window split on right
