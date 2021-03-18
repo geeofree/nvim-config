@@ -26,7 +26,8 @@ nnoremap <leader>s :Rg<CR>
 nnoremap <leader>r :Buffers<CR>
 
 " Cycle through buffers
-nnoremap <S-Tab> :bnext<CR>
+nnoremap ]t :bnext<CR>
+nnoremap [t :bprev<CR>
 
 " Save current buffer
 nnoremap <leader>w :write<CR>
