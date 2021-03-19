@@ -17,5 +17,6 @@ set laststatus=0        " Dont show status line
 set hidden              " Put buffer in background instead of destroying it when a new one comes
 set updatetime=50       " Set updatetime to 50ms
 set backupcopy=yes      " Make a copy of a file and overwrite the new one.
+set colorcolumn=80      " Vertical bar to guide for max characters for lines.
 
 au! BufWritePost $MYVIMRC source % " Autosource vim config file after every write
