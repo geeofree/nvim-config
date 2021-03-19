@@ -4,6 +4,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'ghifarit53/tokyonight-vim'
   Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
+  " Automatically pairs square or curly brackets as well as parentheses
+  Plug 'jiangmiao/auto-pairs'
+
   " Language definitions for syntax highlighting
   Plug 'sheerun/vim-polyglot'
 
