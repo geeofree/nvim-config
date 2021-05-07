@@ -16,5 +16,4 @@ let g:airline#extensions#tabline#buffer_idx_mode = 1
 
 " Others.
 colorscheme material
-highlight Normal guibg=none
-set background=dark
+hi Normal guibg=NONE
